@@ -20,4 +20,4 @@ jobs:
     - name: Build the docker image
       run: docker build . --file Dockerfile
     - name: Docker push 
-      run: docker push harshitbhargav/first-docker
+      run: docker push harshitbhargav/first-docker:latest
